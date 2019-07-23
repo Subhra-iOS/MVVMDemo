@@ -32,4 +32,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //def lifecycle_version = "2.0.0"
+    // alternatively - just ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel: 2.0.0"
+    // For Kotlin use lifecycle-viewmodel-ktx
+    // alternatively - just LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata: 2.0.0"
 }
