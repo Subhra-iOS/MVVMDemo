@@ -17,10 +17,9 @@ import retrofit2.http.GET
 
 interface PostApi {
 
-    /*
-       Get the list from the API
-    */
-
-    @GET("posts")
-    fun getPostList() : Observable<List<Post>>
+    /**
+     * Get the list of the pots from the API
+     */
+    @GET("/posts")
+    fun getPosts(): Observable<List<Post>>
 }
